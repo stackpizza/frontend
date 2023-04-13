@@ -1,8 +1,8 @@
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-import MenuItem from './menu-item.component';
+import { MenuItem } from './menu-item.component';
 
 export default {
-  title: 'Component/Menu',
+  title: 'Component/Menu/Item',
   component: MenuItem,
 } as ComponentMeta<typeof MenuItem>;
 
@@ -14,6 +14,6 @@ View.args = {
   imagePath: '/assets/images/carbonara.jpeg',
   weight: 550,
   pizzaName: 'Pizza Carbonara',
-  ingridients: 'Guanciale, eggs, Parmesan, black pepper, spaghetti',
+  ingredients: 'Guanciale, eggs, Parmesan, black pepper, spaghetti',
   price: 4.5,
 };
