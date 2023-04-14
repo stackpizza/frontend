@@ -1,15 +1,11 @@
-import React from 'react';
+import { Logo } from '../logo/logo.component';
 
-const Header = () => {
+export const Header = () => {
   return (
     <header className="h-12 shadow-xl px-6">
       <div className="h-full flex items-center">
-        <a className="font-xl font-semibold" href="/">
-          🍕 PizzaStack
-        </a>
+        <Logo />
       </div>
     </header>
   );
 };
-
-export default Header;

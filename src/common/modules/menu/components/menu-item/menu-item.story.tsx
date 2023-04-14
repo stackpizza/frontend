@@ -2,7 +2,7 @@ import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { MenuItem } from './menu-item.component';
 
 export default {
-  title: 'Component/Menu/Item',
+  title: 'Menu/Item',
   component: MenuItem,
 } as ComponentMeta<typeof MenuItem>;
 
