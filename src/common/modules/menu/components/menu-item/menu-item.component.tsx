@@ -1,6 +1,6 @@
 import { FC } from 'react';
 
-interface MenuItemProps {
+interface IMenuItemProps {
   imagePath: string;
   weight: number;
   pizzaName: string;
@@ -8,7 +8,7 @@ interface MenuItemProps {
   price: number;
 }
 
-export const MenuItem: FC<MenuItemProps> = ({ imagePath, weight, pizzaName, ingredients, price }) => {
+export const MenuItem: FC<IMenuItemProps> = ({ imagePath, weight, pizzaName, ingredients, price }) => {
   return (
     <div className="w-96 shadow-xl roundex-xl bg-white">
       <div className="relative">
