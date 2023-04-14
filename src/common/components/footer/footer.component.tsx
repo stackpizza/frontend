@@ -3,7 +3,7 @@ import { Logo } from '../logo/logo.component';
 
 export const Footer = () => {
   return (
-    <footer className="pt-12 px-12 pb-8 bg-gray-900">
+    <footer className="mt-28 p-12 bg-gray-900">
       <section className="relative mb-8">
         <span className="uppercase text-zinc-500 font-bold text-sm cursor-default">Контакти</span>
         <ul className="mb-8">

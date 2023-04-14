@@ -6,7 +6,7 @@ interface IMenuListProps {
   Items: IPizza[];
 }
 
-const MenuList: FC<IMenuListProps> = ({ Items }) => {
+export const MenuList: FC<IMenuListProps> = ({ Items }) => {
   return (
     <section className="flex flex-wrap gap-10 justify-center">
       {Items.map(({ image, title, price, ...pizza }) => (
@@ -15,5 +15,3 @@ const MenuList: FC<IMenuListProps> = ({ Items }) => {
     </section>
   );
 };
-
-export default MenuList;
